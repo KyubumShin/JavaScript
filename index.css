@@ -2,6 +2,15 @@ body{
   background-color:gray;
 }
 
+.btn{
+  cursor: pointer;
+}
+
 h1{
-  color:yellow
+  color:yellow;
+  transition : color 0.5s ease-in-out;
+}
+
+.clicked{
+  color : #734555;
 }
